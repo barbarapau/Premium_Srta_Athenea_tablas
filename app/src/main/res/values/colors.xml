@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bright_foreground_holo_light">#ffffff</color>
+    <color name="holo_light_primary">#ffffff</color>
+    <color name="bright_foreground_disabled_holo_light">#ffffff</color>
+    <color name="transparente">#00FFFFFF</color>
+    <color name="azul">#008080</color>
+    <color name="blanco">#ffffff</color>
+    <color name="gris_pizarra">#555555</color>
+    <color name="primary_text_holo_light">#090909</color>
+    <color name="tizaVerde">#ADC682</color>
+    <color name="tizaAzul">#1A4971</color>
+    <color name="tizaAmarilla">#FFEB56</color>
+    <color name="tizaRja">#FF7775</color>
+    <color name="naranja">#F5B093</color>
+    <color name="naranja_oscuro">#ED7D31</color>
+    <color name="verdeOscuro">#70AD47</color>
+    <color name="amarilloOscuro">#FFC000</color>
+    <color name="marron">#8A5D3B</color>
+    <color name="desabilitado">#456866</color>
+
+</resources>

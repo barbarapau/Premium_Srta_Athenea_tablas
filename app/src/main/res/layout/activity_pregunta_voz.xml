@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizarra_sola"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="55dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="38dp"
+    android:weightSum="1"
+    tools:context="barbara.srta_athenea_tablas.Pregunta">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/borrador_voz"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/borrador" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/primero_voz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="4 X 10 ="
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/grande" />
+
+            <TextView
+                android:id="@+id/resultado_voz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/grande" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ok_voz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="12dp"
+                android:background="@color/transparente"
+                android:foregroundGravity="right"
+                android:padding="5dp"
+                android:src="@drawable/flecha"
+
+                android:textColor="@color/tizaVerde"
+                android:textSize="@dimen/mediana" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnMicro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/transparente"
+            android:foregroundGravity="bottom"
+            android:paddingTop="10dp"
+            android:src="@drawable/microfono" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageCheck_voz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/check"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

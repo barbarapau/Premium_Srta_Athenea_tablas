@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="grande">45dp</dimen>
+    <dimen name="mediana">40dp</dimen>
+    <dimen name="mediana2">30dp</dimen>
+    <dimen name="textoDiploma">21dp</dimen>
+    <dimen name="pequeno">25dp</dimen>
+    <dimen name="grande_tablet">64dp</dimen>
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">Tablas de multiplicar</string>
+    <string name="title_activity_portada" translatable="false">Portada</string>
+    <string name="practica">Practica</string>
+    <string name="examen">Elije tablas</string>
+    <string name="examen_voz">Elije tablas (Voz)</string>
+    <string name="title_activity_menu2" translatable="false">Menu2</string>
+    <string name="comienza">Comenzar</string>
+    <string name="t0" translatable="false">0</string>
+    <string name="t1" translatable="false">1</string>
+    <string name="t2" translatable="false">2</string>
+    <string name="t3" translatable="false">3</string>
+    <string name="t4" translatable="false">4</string>
+    <string name="t5" translatable="false">5</string>
+    <string name="t6" translatable="false">6</string>
+    <string name="t7" translatable="false">7</string>
+    <string name="t8" translatable="false">8</string>
+    <string name="t9" translatable="false">9</string>
+    <string name="t10" translatable="false">10</string>
+    <string name="cruz" translatable="false">X</string>
+    <string name="title_activity_examen" translatable="false">examen</string>
+    <string name="selecciona">Selecciona</string>
+    <string name="title_activity_practica" translatable="false">Practica</string>
+
+    <string name="error">errores.</string>
+    <string name="erroresMas5">Tendras que repasar un poco mas. Has cometido</string>
+    <string name="erroresMenos5">No esta mal. Has cometido</string>
+    <string name="erroresMenos3">Casi lo has conseguido. Has cometido</string>
+    <string name="erroresMenos1">Ya lo tienes, solo</string>
+    <string name="title_activity_pregunta" translatable="false">Pregunta</string>
+    <string name="explica_practica">Arrastra cada resultado en su posición</string>
+    <string name="pregunta_examen">¿Que tablas te sabes?</string>
+    <string name="pregunta_practicar">¿Que tablas quieres practicar?</string>
+    <string name="title_activity_resultados" translatable="false">Resultados</string>
+    <string name="title_activity_prueba" translatable="false">prueba</string>
+    <string name="empezaer">empezar</string>
+    <string name="instrucciones_examen">Pincha en la flecha para comprobar el resultado.</string>
+    <string name="title_activity_instrucciones" translatable="false">instrucciones</string>
+    <string name="textoCerrar">¿Quieres salir?</string>
+    <string name="buenTrabajo">BUEN TRABAJO</string>
+    <string name="todo">Desafio</string>
+    <string name="contraRejoj">Contrareloj</string>
+    <string name="salir">Pulsa dos veces para salir</string>
+    <string name="cerrar">Salir</string>
+    <string name="hola">Hola de nuevo</string>
+    <string name="empezar">¿Empezamos?</string>
+    <string name="entrar">Pulsa para entrar en clase</string>
+    <string name="presentacion">Soy la Srta. Athenea. Bienvenido a mi clase</string>
+    <string name="presentacion2">¿Como te llamas?</string>
+    <string name="presentacion3">Hola,</string>
+    <string name="instruccionesVoz">Pincha en el microfono para decir el resultado. Comprueba tu         respuesta pinchando en la flecha</string>
+
+    <string name="informa_crono">Tienes 2minutos y 20 preguntas. ¿Podras conseguirlo?</string>
+    <string name="informa_desafio">¿Te sabes bien todas las tablas? Tienes 2minutos</string>
+    <string name="texto_desafio">Sigue intentandolo. Has cometido</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="texto_diploma1" translatable="false">Por haber aprendido con exito ¡¡Todas las tablas de
+        multiplicar!!
+    </string>
+    <string name="title_activity_ajustes" translatable="false">Ajustes</string>
+    <string name="instrucciones_ajustes">¿Que quieres hacer?</string>
+    <string name="cambiarNombre">Modificar nombre</string>
+    <string name="modificarContra">Modificar tiempo</string>
+    <string name="title_activity_nombre" translatable="false">Nombre</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_tiempo" translatable="false">Tiempo</string>
+    <string name="guardar">Guardar</string>
+    <string name="informa_crono1">Tienes 1minutos. ¿Podras conseguirlo?</string>
+    <string name="informa_crono2">Tienes 2minutos y 20 preguntas. ¿Podras conseguirlo?</string>
+    <string name="informa_crono3">Tienes 3minutos y 20 preguntas. ¿Podras conseguirlo?</string>
+    <string name="informa_crono4">Tienes 4minutos y 20 preguntas. ¿Podras conseguirlo?</string>
+    <string name="informa_crono5">Tienes 5minutos y 20 preguntas. ¿Podras conseguirlo?</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="tx1">Cada día te sabes mejor las tablas.</string>
+    <string name="tx2">Eres mi mejor alumno.</string>
+    <string name="tx3">Me encanta ser tu profesora.</string>
+    <string name="tx4">Buen trabajo.</string>
+    <string name="tx5">Eres un genio.</string>
+    <string name="txBoton">¿Seguimos estudiando?</string>
+    <string name="anun">Quitar anuncios</string>
+    <string name="title_activity_anuncios" translatable="false">Anuncios</string>
+    <string name="codigoCorrecto">Codigo correcto</string>
+    <string name="codigoError">Codigo erroneo</string>
+    <string name="instruccionesCuentaReloj">Selecciona 1 o mas tablas</string>
+    <string name="informaDesafio">Antes tendras que superar todas las tablas</string>
+    <string name="informaContra">Antes tendras que superar al menos dos tablas</string>
+    <string name="salirDos">Pulsa dos veces para salir</string>
+
+    <!--Replace with your own ad unit id. -->
+
+</resources>

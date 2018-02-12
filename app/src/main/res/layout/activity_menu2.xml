@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingBottom="10dp" android:paddingLeft="20dp"
+    android:paddingRight="20dp" android:paddingTop="80dp"
+    android:background="@drawable/primera_pantalla" tools:context="barbara.srta_athenea_tablas.Menu2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/insReloj"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/mediana2"
+        android:padding="12dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/edit_redondeado"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/instruccionesCuentaReloj" />
+
+    <TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+
+
+        <ToggleButton android:layout_width="0dp"
+
+            android:layout_height="wrap_content" android:text="@string/t1" android:layout_weight="1"
+            android:textOn="@string/t1" android:textOff="@string/t1"
+            android:background="@color/transparente" android:id="@+id/b1" android:checked="false"
+            android:textColor="#ffffff" android:textSize="@dimen/grande"
+
+            android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:background="@color/transparente" android:layout_height="wrap_content"
+            android:text="@string/t2" android:textOn="@string/t2" android:textOff="@string/t2"
+            android:id="@+id/b2" android:checked="false" android:textColor="#ffffff"
+            android:textSize="@dimen/grande" android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:textOff="@string/t3" android:layout_height="wrap_content"
+            android:text="@string/t3" android:id="@+id/b3" android:textOn="@string/t3"
+            android:checked="false" android:textColor="#ffffff"
+            android:background="@color/transparente" android:textSize="@dimen/grande"
+            android:layout_margin="6dp" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t4"
+            android:textOff="@string/t4" android:textOn="@string/t4" android:id="@+id/b4"
+            android:checked="false" android:background="@color/transparente"
+            android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t5"
+            android:textOn="@string/t5" android:textOff="@string/t5" android:id="@+id/b5"
+            android:checked="false" android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:background="@color/transparente" android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:textOff="@string/t6" android:textOn="@string/t6"
+            android:layout_height="wrap_content" android:text="@string/t6" android:id="@+id/b6"
+            android:checked="false" android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:background="@color/transparente" android:layout_margin="6dp" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t7"
+            android:textOn="@string/t7" android:textOff="@string/t7"
+            android:background="@color/transparente" android:clickable="false"
+            android:id="@+id/vacio" android:checked="false" android:textColor="@color/transparente"
+            android:textSize="@dimen/grande" android:layout_margin="6dp" />
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t7"
+            android:textOn="@string/t7" android:textOff="@string/t7"
+            android:background="@color/transparente" android:id="@+id/b7" android:checked="false"
+            android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t8"
+            android:background="@color/transparente" android:textOff="@string/t8"
+            android:textOn="@string/t8" android:id="@+id/b8" android:checked="false"
+            android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:layout_margin="6dp" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="@string/t7"
+            android:textOn="@string/t7" android:textOff="@string/t7"
+            android:background="@color/transparente" android:clickable="false"
+            android:id="@+id/vacio2" android:checked="false" android:textColor="@color/transparente"
+            android:textSize="@dimen/grande" android:layout_margin="6dp" />
+        <ToggleButton android:layout_width="0dp" android:layout_weight="1"
+            android:textOff="@string/t9" android:background="@color/transparente"
+            android:layout_height="wrap_content" android:text="@string/t9"
+            android:textOn="@string/t9" android:id="@+id/b9" android:checked="false"
+            android:textColor="#ffffff" android:textSize="@dimen/grande"
+            android:layout_margin="6dp" />
+
+        <ToggleButton android:layout_weight="1" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:background="@color/transparente"
+            android:text="@string/t10" android:textOn="@string/t10" android:textOff="@string/t10"
+            android:id="@+id/b10" android:checked="false" android:textColor="#ffffff"
+            android:textSize="@dimen/grande" android:layout_margin="6dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="1" android:layout_gravity="right" android:foregroundGravity="right"
+        android:gravity="bottom|right">
+
+
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/lapicero" android:visibility="invisible"
+            android:background="@color/transparente" android:id="@+id/empezar" />
+    </TableRow>
+</TableLayout>
+</RelativeLayout>

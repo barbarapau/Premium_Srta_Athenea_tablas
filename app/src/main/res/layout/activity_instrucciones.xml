@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/edit_redondeado" tools:context="barbara.srta_athenea_tablas.Instrucciones">
+
+    <Button android:layout_width="wrap_content" android:layout_height="150dp" android:padding="18dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gris_pizarra" android:background="@color/transparente"
+        android:id="@+id/texto" android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+
+        android:text="@string/instrucciones_examen" android:gravity="center" />
+</RelativeLayout>
